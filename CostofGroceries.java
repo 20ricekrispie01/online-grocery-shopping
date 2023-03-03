@@ -8,15 +8,20 @@ public class CostofGroceries {
 		int numOranges;
 		int numBananas;
 		int numPears;
-      int userAge;
-      double totalCost;
-      double discount;
-      char keepShopping;
-      boolean isMember;
-      String userMember;
+      		int userAge;
+      		double totalCost;
+      		double discount;
+     		// char keepShopping; 
+      		boolean isMember;
+		String userName;
+      		String userMember;
       
-      keepShopping = 'y';
+      		// keepShopping = 'y';
 		
+		System.out.println("Please enter your name: ");
+		userName. scnr.next();
+		
+		System.out.println("Welcome " + userName + ".");
 		System.out.println("How many apples do you want?");
 		numApples = scnr.nextInt();
       
@@ -35,11 +40,11 @@ public class CostofGroceries {
 		System.out.println("How many pears do you want?");
 		numPears = scnr.nextInt();
       
-      System.out.println("What is your age?");
-      userAge = scnr.nextInt();
+      		System.out.println("What is your age?");
+      		userAge = scnr.nextInt();
       
-      System.out.println("Do you a store membership? Enter yes or no");
-      userMember = scnr.next();
+		System.out.println("Do you a store membership? Enter yes or no");
+		userMember = scnr.next();
       
       switch (userMember) {
          case "yes" :
