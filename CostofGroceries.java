@@ -4,11 +4,7 @@ public class CostofGroceries {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in); //creates scanner to read user input
 		
-		int numApples;
-		int numOranges;
-		int numBananas;
-		int numPears;
-      		int userAge;
+		int numApples, numOranges, numBananas, numPears;
       		double totalCost;
       		double discount;
      		// char keepShopping; 
