@@ -1,9 +1,9 @@
 # online-grocery-shopping
 
 <b>Intent</b><br>
-Program is meant to simulate an online shopping experience for a grocery store.
+The program emulates the online grocery shopping experience, focusing on interactive selection and personalized pricing. The system creates a user-friendly simulation and incorporates age and membership-based discounts.
 
 <b>Design</b><br>
-* Ask for amount of items the user wants<br>
-* Ask if for user's age and if they have a membership<br>
-* Give total amount and apply the appropiate discounts <br>
+* Users input the number of items to enhance interactivity.<br>
+* Program gathers user age and membership status data for personalized shopping.<br>
+* Calculates the total cost, including personalized discounts based on user profile.<br>
